@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/gradient"
     tools:context=".Profile">
 
     <TextView
@@ -12,6 +13,8 @@
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toTopOf="@+id/cardView"
         android:layout_marginBottom="30dp"
+        android:textColor="@color/white"
+        android:background="@drawable/gradient"
         app:layout_constraintEnd_toEndOf="@+id/cardView"
         app:layout_constraintStart_toStartOf="@+id/cardView" />
     <androidx.cardview.widget.CardView

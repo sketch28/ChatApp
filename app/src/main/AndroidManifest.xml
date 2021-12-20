@@ -12,6 +12,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ChatAppBySketch">
         <activity
+            android:name=".MessageActivity" android:theme="@style/Theme.StyleWithOutToolBar"
+            android:exported="false" />
+        <activity
             android:name=".Profile"
             android:exported="false" />
         <activity
